@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 121.179.14.97
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1737726064464
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1737726541709
+  login: 1737724198103
+money: '0'
+last-account-name: Louis7308_
+lastlocation:
+  world: f2f7e4aa-1ab4-4032-8584-9b9d37c7ec9c
+  world-name: world
+  x: -213.74472184501883
+  y: 9.0
+  z: 73.65930585024375
+  yaw: -153.94161987304688
+  pitch: 24.899232864379883
+logoutlocation:
+  world: f2f7e4aa-1ab4-4032-8584-9b9d37c7ec9c
+  world-name: world
+  x: 231.16000152722495
+  y: -48.66968439867158
+  z: 373.30000001192093
+  yaw: -104.7574462890625
+  pitch: 32.3997688293457

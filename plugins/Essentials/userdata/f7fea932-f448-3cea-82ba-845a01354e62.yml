@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 58.79.18.68
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1735828178817
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1735832750495
+  login: 1735828107533
+money: '0'
+last-account-name: Juuunsu
+lastlocation:
+  world: fe7a4b74-91ef-4138-98c7-88ba2e17f7b6
+  world-name: flatroom
+  x: 34.62502079423596
+  y: -60.0
+  z: 35.95161419681786
+  yaw: 154.4195556640625
+  pitch: 8.399612426757812
+logoutlocation:
+  world: fe7a4b74-91ef-4138-98c7-88ba2e17f7b6
+  world-name: flatroom
+  x: 22.69957369266595
+  y: -58.0
+  z: -61.69999998807907
+  yaw: -65.208740234375
+  pitch: 3.000185012817383

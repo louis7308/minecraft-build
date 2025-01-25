@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 222.235.181.30
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1735368088320
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1735369083896
+  login: 1735367585199
+money: '0'
+last-account-name: 1seung
+lastlocation:
+  world: db334733-f3c0-43ce-b71f-6e3b9f98d277
+  world-name: void-minigame
+  x: 5.863769526211984
+  y: 7.0
+  z: 2.429065694622883
+  yaw: -28.0064697265625
+  pitch: 21.555816650390625
+logoutlocation:
+  world: db334733-f3c0-43ce-b71f-6e3b9f98d277
+  world-name: void-minigame
+  x: 19.768794229577857
+  y: 12.0
+  z: -60.845895631312665
+  yaw: -86.6767578125
+  pitch: 14.559425354003906

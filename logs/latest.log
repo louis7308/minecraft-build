@@ -1,0 +1,187 @@
+[13:09:20] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:09:23] [ServerMain/INFO]: Loaded 7 recipes
+[13:09:25] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[13:09:25] [Server thread/WARN]: ****************************
+[13:09:25] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[13:09:25] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[13:09:25] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[13:09:25] [Server thread/WARN]: ****************************
+[13:09:25] [Server thread/INFO]: Loading properties
+[13:09:25] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[13:09:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:09:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:09:27] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[13:09:27] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[13:09:28] [Server thread/INFO]: Default game type: SURVIVAL
+[13:09:28] [Server thread/INFO]: Generating keypair
+[13:09:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:09:28] [Server thread/INFO]: Using epoll channel type
+[13:09:28] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:09:28] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[13:09:29] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'chasing-tails.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21
+	at org.bukkit.craftbukkit.v1_20_R1.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:380) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:119) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:510) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:09:29] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[13:09:29] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.11
+[13:09:29] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
+[13:09:30] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6c2fc9b8]
+[13:09:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:09:31] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[13:09:31] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:09:31] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[13:09:31] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[13:09:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:09:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:09:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:09:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:09:34] [Server thread/INFO]: Preparing level "world"
+[13:09:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:09:37] [Server thread/INFO]: Time elapsed: 602 ms
+[13:09:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:09:37] [Server thread/INFO]: Time elapsed: 169 ms
+[13:09:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:09:37] [Server thread/INFO]: Time elapsed: 120 ms
+[13:09:37] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[13:09:39] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[13:09:39] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[13:09:39] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[13:09:40] [Server thread/INFO]: [Essentials] Using locale en
+[13:09:40] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[13:09:40] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[13:09:40] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[13:09:40] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.11
+[13:09:40] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.11" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[13:09:40] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[13:09:41] [Server thread/INFO]: Preparing start region for dimension minecraft:flatroom
+[13:09:41] [Server thread/INFO]: Time elapsed: 972 ms
+[13:09:42] [Server thread/INFO]: Preparing start region for dimension minecraft:void-minigame
+[13:09:42] [Server thread/INFO]: Time elapsed: 141 ms
+[13:09:42] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[13:09:42] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[13:09:42] [Server thread/INFO]: [Multiverse-Core] Version 4.3.11 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[13:09:43] [Server thread/INFO]: Running delayed init tasks
+[13:09:43] [Server thread/INFO]: Done (17.820s)! For help, type "help"
+[13:09:43] [Server thread/INFO]: Timings Reset
+[13:09:43] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[13:09:57] [User Authenticator #0/INFO]: UUID of player Louis7308_ is eebd3d2f-f6cd-352c-aea1-489b6fdc9719
+[13:09:57] [Server thread/INFO]: Louis7308_ joined the game
+[13:09:57] [Server thread/INFO]: Louis7308_[/121.179.14.97:3023] logged in with entity id 270 at ([flatroom]76.92294525826591, -60.0, 6.633718283689016)
+[13:10:02] [Server thread/INFO]: Louis7308_ issued server command: /gamemode creative
+[13:10:04] [Server thread/INFO]: Louis7308_ issued server command: /m2 lsit
+[13:10:05] [Server thread/INFO]: Louis7308_ issued server command: /mw
+[13:10:06] [Server thread/INFO]: Louis7308_ issued server command: /mv
+[13:10:07] [Server thread/INFO]: Louis7308_ issued server command: /mv lsit
+[13:10:08] [Server thread/INFO]: Louis7308_ issued server command: /mv list
+[13:10:14] [Server thread/INFO]: Louis7308_ issued server command: /mv tp world
+[13:10:17] [Server thread/INFO]: Louis7308_ issued server command: /gamemode cre
+[13:10:18] [Server thread/INFO]: Louis7308_ issued server command: /gamemode cre
+[13:10:20] [Server thread/INFO]: Louis7308_ issued server command: /gamemode creative
+[13:11:01] [Server thread/INFO]: Louis7308_ issued server command: /setspawn
+[13:11:21] [Server thread/INFO]: Louis7308_ issued server command: /sapwnw
+[13:11:22] [Server thread/INFO]: Louis7308_ issued server command: /kill Louis7308_
+[13:11:22] [Server thread/INFO]: Louis7308_ died
+[13:11:46] [User Authenticator #1/INFO]: UUID of player s6yun2 is 4c636a8c-9520-38ff-aa14-5b08a9018456
+[13:11:46] [Server thread/INFO]: s6yun2 joined the game
+[13:11:46] [Server thread/INFO]: s6yun2[/121.179.14.95:2329] logged in with entity id 690 at ([flatroom]0.4342712815923816, -33.893974800727975, -56.55072810311606)
+[13:11:56] [Server thread/INFO]: Louis7308_ issued server command: /tp s6yun2
+[13:11:57] [Server thread/INFO]: Louis7308_ fell from a high place
+[13:11:59] [User Authenticator #1/INFO]: UUID of player taehee is 1111322c-10c0-300c-9075-5dc8c37d5783
+[13:11:59] [Server thread/INFO]: taehee joined the game
+[13:11:59] [Server thread/INFO]: taehee[/121.179.14.96:2460] logged in with entity id 691 at ([world]0.5, 86.0, -9.5)
+[13:12:03] [Server thread/INFO]: Louis7308_ issued server command: /op taehee
+[13:12:03] [Server thread/INFO]: [Louis7308_: Made taehee a server operator]
+[13:12:06] [Server thread/INFO]: Louis7308_ issued server command: /tp Louis7308_ taehee
+[13:12:07] [Server thread/INFO]: Louis7308_ issued server command: /back
+[13:12:11] [Server thread/INFO]: Louis7308_ issued server command: /tp taehee Louis7308_
+[13:12:13] [Server thread/INFO]: Louis7308_ issued server command: /gamemode creative
+[13:12:17] [Server thread/INFO]: Louis7308_ issued server command: /gamemode creative taehee
+[13:12:18] [Server thread/INFO]: Louis7308_ issued server command: /tp s6yun2
+[13:12:46] [Server thread/INFO]: s6yun2 issued server command: /weather clear
+[13:13:25] [Server thread/INFO]: Louis7308_ issued server command: /tp s6yun2
+[13:15:27] [Server thread/INFO]: Louis7308_ issued server command: /mv tp world
+[13:15:29] [Server thread/INFO]: Louis7308_ issued server command: /tp s6yun2 Louis7308_
+[13:15:31] [Server thread/INFO]: Louis7308_ issued server command: /tp s6yun2 Louis7308_
+[13:15:33] [Server thread/INFO]: Louis7308_ issued server command: /tp taehee Louis7308_
+[13:15:37] [Server thread/INFO]: Louis7308_ issued server command: /gamemode spectator taehee
+[13:15:45] [Server thread/INFO]: Louis7308_ issued server command: /gamemode survival s6yun2
+[13:15:45] [Server thread/INFO]: Louis7308_ issued server command: /
+[13:15:54] [Server thread/INFO]: Louis7308_ issued server command: /gamemode survival taehee
+[13:15:58] [Server thread/INFO]: Louis7308_ issued server command: /tp taehee Louis7308_
+[13:18:18] [Server thread/INFO]: Louis7308_ issued server command: //
+[13:18:21] [Server thread/INFO]: Louis7308_ issued server command: //
+[13:19:47] [Server thread/INFO]: Louis7308_ has made the advancement [Stone Age]
+[13:20:40] [Server thread/INFO]: Louis7308_ has made the advancement [Getting an Upgrade]
+[13:22:23] [Server thread/INFO]: taehee has made the advancement [Stone Age]
+[13:23:59] [Server thread/INFO]: taehee has made the advancement [Getting an Upgrade]
+[13:27:09] [Server thread/INFO]: Louis7308_ has made the advancement [Acquire Hardware]
+[13:27:13] [Server thread/INFO]: Louis7308_ has made the advancement [Isn't It Iron Pick]
+[13:27:31] [Server thread/INFO]: Louis7308_ has made the advancement [Diamonds!]
+[13:29:12] [Server thread/INFO]: Louis7308_ issued server command: /tp taehee
+[13:29:12] [Server thread/WARN]: Louis7308_ moved too quickly! -53.62215628129317,-1.0,-71.06351546516731
+[13:29:16] [Server thread/INFO]: Louis7308_ issued server command: /gamemode creative
+[13:29:48] [Server thread/INFO]: Louis7308_ issued server command: /back
+[13:29:48] [Server thread/WARN]: Louis7308_ moved too quickly! 50.50718156262349,1.0,70.93491002858735
+[13:29:50] [Server thread/INFO]: Louis7308_ issued server command: /tp s6yun2
+[13:29:50] [Server thread/WARN]: Louis7308_ moved too quickly! -52.27007381873386,0.0,-132.19999998807907
+[13:29:56] [Server thread/INFO]: Louis7308_ issued server command: /back
+[13:30:00] [Server thread/INFO]: Louis7308_ issued server command: /back
+[13:30:00] [Server thread/WARN]: Louis7308_ moved too quickly! -47.449920681129754,-0.20000004768371582,-130.19999998807907
+[13:30:11] [Server thread/INFO]: Louis7308_ issued server command: /back
+[13:30:11] [Server thread/WARN]: Louis7308_ moved too quickly! 47.19999998807907,-5.200000047683716,128.80000001192093
+[13:30:27] [Server thread/INFO]: Louis7308_ issued server command: /gamemode survival
+[13:30:37] [Server thread/INFO]: Louis7308_ issued server command: /tp taehee
+[13:30:39] [Server thread/INFO]: Louis7308_ issued server command: /gamemode creative
+[13:33:00] [Server thread/INFO]: taehee has made the advancement [Acquire Hardware]
+[13:34:37] [Server thread/INFO]: taehee has made the advancement [Isn't It Iron Pick]
+[13:35:08] [Server thread/INFO]: Louis7308_ issued server command: /gamemode survival
+[13:38:20] [Server console handler/ERROR]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Input/output error
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.1.jar:git-Paper-196]
+Caused by: java.io.IOException: Input/output error
+	at java.io.FileInputStream.read0(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:231) ~[?:?]
+	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
+	... 9 more
+[13:40:50] [Server thread/INFO]: Louis7308_ issued server command: /gamemode creative
+[13:40:52] [Server thread/INFO]: Louis7308_ issued server command: /tp s6yun2
+[13:40:52] [Server thread/WARN]: Louis7308_ moved too quickly! -0.19999998807907104,-67.53223137426006,-35.81933805587359
+[13:40:56] [Server thread/INFO]: Louis7308_ issued server command: /back
+[13:40:56] [Server thread/WARN]: Louis7308_ moved too quickly! -0.2811546401659797,67.2561580369717,36.42122953216638
+[13:40:56] [Server thread/WARN]: Louis7308_ moved too quickly! -0.2811546401659797,67.2561580369717,36.42122953216638
+[13:41:00] [Server thread/INFO]: Louis7308_ issued server command: /tp taehee
+[13:41:04] [Server thread/INFO]: Louis7308_ issued server command: /back
+[13:41:04] [Server thread/WARN]: Louis7308_ moved too quickly! 139.24472184501883,69.0,7.840694149756246
+[13:43:27] [Server thread/INFO]: s6yun2 has made the advancement [Diamonds!]
+[13:44:56] [Server thread/INFO]: s6yun2 issued server command: /tp Louis7308_
+[13:44:56] [Server thread/WARN]: s6yun2 moved too quickly! 243.83567026631684,-12.0,235.19999998807907
+[13:47:43] [Server thread/INFO]: taehee lost connection: Disconnected
+[13:47:43] [Server thread/INFO]: taehee left the game
+[13:47:44] [Server thread/INFO]: s6yun2 lost connection: Disconnected
+[13:47:44] [Server thread/INFO]: s6yun2 left the game
+[13:49:01] [Server thread/INFO]: Louis7308_ lost connection: Disconnected
+[13:49:01] [Server thread/INFO]: Louis7308_ left the game

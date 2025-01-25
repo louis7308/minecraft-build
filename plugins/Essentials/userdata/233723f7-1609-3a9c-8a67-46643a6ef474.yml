@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 27.1.90.3
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1735833828869
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1737033368252
+  login: 1737028465994
+money: '0'
+last-account-name: Sionsion030
+logoutlocation:
+  world: fe7a4b74-91ef-4138-98c7-88ba2e17f7b6
+  world-name: flatroom
+  x: 19.89685496073055
+  y: -49.8227845998791
+  z: -94.07379672889627
+  yaw: 86.1136474609375
+  pitch: 57.15006637573242
+lastlocation:
+  world: fe7a4b74-91ef-4138-98c7-88ba2e17f7b6
+  world-name: flatroom
+  x: -23.223450175992376
+  y: -51.18361983750903
+  z: -50.532728771276744
+  yaw: -87.826171875
+  pitch: 70.19984436035156

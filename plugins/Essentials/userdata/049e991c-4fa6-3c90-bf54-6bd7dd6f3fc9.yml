@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 222.235.181.30
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1735835324750
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1737033376897
+  login: 1737030160631
+money: '0'
+last-account-name: junhyeok
+lastlocation:
+  world: fe7a4b74-91ef-4138-98c7-88ba2e17f7b6
+  world-name: flatroom
+  x: 41.986024259213906
+  y: -41.07724154716778
+  z: 21.443197850497157
+  yaw: -127.36962890625
+  pitch: -31.7036075592041
+logoutlocation:
+  world: fe7a4b74-91ef-4138-98c7-88ba2e17f7b6
+  world-name: flatroom
+  x: -11.629561532219094
+  y: -60.0
+  z: -83.60222563756254
+  yaw: 84.115234375
+  pitch: 58.23332977294922

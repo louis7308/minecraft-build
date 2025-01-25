@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 121.179.14.96
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1737726463728
+  login: 1737724319764
+money: '0'
+last-account-name: taehee
+lastlocation:
+  world: f2f7e4aa-1ab4-4032-8584-9b9d37c7ec9c
+  world-name: world
+  x: 15.089044485246978
+  y: 80.0
+  z: -7.715301425163728
+  yaw: -85.64743041992188
+  pitch: 69.15027618408203
+logoutlocation:
+  world: f2f7e4aa-1ab4-4032-8584-9b9d37c7ec9c
+  world-name: world
+  x: -217.99551668030128
+  y: 9.0
+  z: 73.98434111169176
+  yaw: -135.845458984375
+  pitch: 30.89952850341797

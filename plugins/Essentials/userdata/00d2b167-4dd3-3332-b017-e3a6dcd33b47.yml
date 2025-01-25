@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 116.122.44.46
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1735371365668
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1735834681097
+  login: 1735827244037
+money: '0'
+last-account-name: yusong73
+lastlocation:
+  world: fe7a4b74-91ef-4138-98c7-88ba2e17f7b6
+  world-name: flatroom
+  x: -3.930863131364656
+  y: -59.5
+  z: 28.288558394474517
+  yaw: -173.1805419921875
+  pitch: 12.083547592163086
+logoutlocation:
+  world: fe7a4b74-91ef-4138-98c7-88ba2e17f7b6
+  world-name: flatroom
+  x: 28.86250001192093
+  y: -58.0
+  z: -53.11442155321351
+  yaw: -85.7158203125
+  pitch: 3.0069379806518555
